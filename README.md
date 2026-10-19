@@ -1,0 +1,2 @@
+# Unit-Aware-Differentially-Private-Quantum-Machine-Learning-for-Clinical-and-Wearable-Health-Data
+A privacy-preserving quantum machine learning framework for health risk prediction. It trains quantum neural networks with differential privacy on clinical and wearable data, protecting each patient as one unit. The goal is to test whether quantum models keep more accuracy than classical ones under strict privacy limits.
