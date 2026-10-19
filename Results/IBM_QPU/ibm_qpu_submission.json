@@ -1,0 +1,8 @@
+{
+  "submitted_utc": "2026-07-24T04:00:38.891318+00:00",
+  "backend": "ibm_fez",
+  "job_id": "d9he6pjsbqfc73epu49g",
+  "shots_per_binding": 1024,
+  "parameter_bindings": 16,
+  "maximum_qpu_seconds": 540
+}

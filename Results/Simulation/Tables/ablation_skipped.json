@@ -1,0 +1,302 @@
+[
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 0,
+    "n_features": 8,
+    "n_layers": 1,
+    "encoding": "rx",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 0,
+    "n_features": 8,
+    "n_layers": 1,
+    "encoding": "ry",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 0,
+    "n_features": 8,
+    "n_layers": 2,
+    "encoding": "rx",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 0,
+    "n_features": 8,
+    "n_layers": 2,
+    "encoding": "ry",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 0,
+    "n_features": 8,
+    "n_layers": 3,
+    "encoding": "rx",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 0,
+    "n_features": 8,
+    "n_layers": 3,
+    "encoding": "ry",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 1,
+    "n_features": 8,
+    "n_layers": 1,
+    "encoding": "rx",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 1,
+    "n_features": 8,
+    "n_layers": 1,
+    "encoding": "ry",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 1,
+    "n_features": 8,
+    "n_layers": 2,
+    "encoding": "rx",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 1,
+    "n_features": 8,
+    "n_layers": 2,
+    "encoding": "ry",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 1,
+    "n_features": 8,
+    "n_layers": 3,
+    "encoding": "rx",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 1,
+    "n_features": 8,
+    "n_layers": 3,
+    "encoding": "ry",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 2,
+    "n_features": 8,
+    "n_layers": 1,
+    "encoding": "rx",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 2,
+    "n_features": 8,
+    "n_layers": 1,
+    "encoding": "ry",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 2,
+    "n_features": 8,
+    "n_layers": 2,
+    "encoding": "rx",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 2,
+    "n_features": 8,
+    "n_layers": 2,
+    "encoding": "ry",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 2,
+    "n_features": 8,
+    "n_layers": 3,
+    "encoding": "rx",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 2,
+    "n_features": 8,
+    "n_layers": 3,
+    "encoding": "ry",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 3,
+    "n_features": 8,
+    "n_layers": 1,
+    "encoding": "rx",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 3,
+    "n_features": 8,
+    "n_layers": 1,
+    "encoding": "ry",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 3,
+    "n_features": 8,
+    "n_layers": 2,
+    "encoding": "rx",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 3,
+    "n_features": 8,
+    "n_layers": 2,
+    "encoding": "ry",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 3,
+    "n_features": 8,
+    "n_layers": 3,
+    "encoding": "rx",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 3,
+    "n_features": 8,
+    "n_layers": 3,
+    "encoding": "ry",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 4,
+    "n_features": 8,
+    "n_layers": 1,
+    "encoding": "rx",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 4,
+    "n_features": 8,
+    "n_layers": 1,
+    "encoding": "ry",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 4,
+    "n_features": 8,
+    "n_layers": 2,
+    "encoding": "rx",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 4,
+    "n_features": 8,
+    "n_layers": 2,
+    "encoding": "ry",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 4,
+    "n_features": 8,
+    "n_layers": 3,
+    "encoding": "rx",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  },
+  {
+    "status": "skipped",
+    "dataset": "wesad",
+    "seed": 4,
+    "n_features": 8,
+    "n_layers": 3,
+    "encoding": "ry",
+    "reason": "requested 8 features but only 7 are available",
+    "code_version": "4.0"
+  }
+]

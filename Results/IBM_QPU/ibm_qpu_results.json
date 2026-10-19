@@ -1,0 +1,155 @@
+{
+  "completed_utc": "2026-07-24T04:01:39.388210+00:00",
+  "experiment": {
+    "purpose": "QPU inference feasibility and exact-to-hardware agreement",
+    "dataset": "pima",
+    "dataset_source_sha256": "6bfe5d0f379d17a0e0819b996407e3c09bf80febd4287f2ed212190dfff154af",
+    "simulation_code_version": "4.0",
+    "randomness_protocol_version": "3.1",
+    "split_seed": 0,
+    "public_preprocessing_seed": 2026,
+    "preprocessing_fit": "public_calibration_only",
+    "test_positions": [
+      0,
+      1,
+      2,
+      4,
+      3,
+      6,
+      14,
+      16
+    ],
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "selection_rule": "first four negative and first four positive test cases",
+    "private_checkpoint": {
+      "model": "qnn_C1.0_empirical",
+      "seed": 0,
+      "target_epsilon": 1.0,
+      "realized_epsilon": 0.9945662909471514,
+      "delta": 1e-05,
+      "clipping_threshold": 1.0,
+      "artifact_sha256": "bbb4ee16de5a52d457de9fc24441989f7b84284d784ba7abe0072a42ffbe11af"
+    },
+    "nonprivate_checkpoint": {
+      "model": "qnn",
+      "seed": 0,
+      "artifact_sha256": "c471f4d7ce0c29291ea4e0e2e4e91e9c44afeea411d5861b7535321acc99ee09"
+    }
+  },
+  "runtime": {
+    "qiskit": "2.4.2",
+    "qiskit_ibm_runtime": "0.46.1",
+    "backend": "ibm_fez",
+    "job_id": "d9he6pjsbqfc73epu49g",
+    "job_metrics": {
+      "caller": "qiskit_ibm_runtime~estimator.py",
+      "qiskit_version": "qiskit_ibm_runtime-0.46.1,qiskit-2.4.2*",
+      "timestamps": {
+        "created": "2026-07-24T04:00:38.788434Z",
+        "finished": "2026-07-24T04:01:38.950725Z",
+        "running": "2026-07-24T04:00:40.074089Z"
+      },
+      "bss": {
+        "seconds": 6
+      },
+      "usage": {
+        "quantum_seconds": 6,
+        "seconds": 6,
+        "status": "complete"
+      }
+    }
+  },
+  "circuit": {
+    "qubits": 4,
+    "layers": 2,
+    "logical_depth": 11,
+    "isa_depth": 59,
+    "isa_size": 103,
+    "transpiler_optimization_level": 3,
+    "transpiler_seed": 2026,
+    "observable": "Z on logical qubit 0",
+    "shots_per_binding": 1024,
+    "parameter_bindings": 16,
+    "requested_shot_executions": 16384,
+    "maximum_qpu_seconds": 540
+  },
+  "exact_statevector": {
+    "nonprivate_probabilities": [
+      0.029773954581577056,
+      0.046990032509915014,
+      0.03482042963958343,
+      0.39593988534752794,
+      0.40825974590629827,
+      0.7438917751211527,
+      0.44883336628928366,
+      0.26856956625165523
+    ],
+    "private_probabilities": [
+      0.13649111641478273,
+      0.17973497062987487,
+      0.20650157467205438,
+      0.4009773242450235,
+      0.37831631921575753,
+      0.5988675877838553,
+      0.4336653411208882,
+      0.3012488321533868
+    ]
+  },
+  "qpu": {
+    "nonprivate_probabilities": [
+      0.1376953125,
+      0.1669921875,
+      0.138671875,
+      0.4169921875,
+      0.431640625,
+      0.693359375,
+      0.4521484375,
+      0.3427734375
+    ],
+    "private_probabilities": [
+      0.2314453125,
+      0.2646484375,
+      0.275390625,
+      0.4208984375,
+      0.41796875,
+      0.5810546875,
+      0.4375,
+      0.341796875
+    ],
+    "nonprivate_descriptive_metrics": {
+      "correct": 5,
+      "total": 8,
+      "accuracy": 0.625,
+      "brier": 0.1736384630203247
+    },
+    "private_descriptive_metrics": {
+      "correct": 5,
+      "total": 8,
+      "accuracy": 0.625,
+      "brier": 0.2050642967224121
+    }
+  },
+  "agreement_to_exact": {
+    "nonprivate": {
+      "mean_signed_error": 0.05039933523162584,
+      "mae": 0.06303243526191402,
+      "rmse": 0.07574071890433087,
+      "max_absolute_error": 0.12000215499008499
+    },
+    "private": {
+      "mean_signed_error": 0.04186250734554708,
+      "mae": 0.0463157324165109,
+      "rmse": 0.055809510042564875,
+      "max_absolute_error": 0.09495419608521727
+    }
+  }
+}

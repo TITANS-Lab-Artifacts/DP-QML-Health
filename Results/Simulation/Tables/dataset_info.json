@@ -1,0 +1,38 @@
+[
+  {
+    "dataset": "pima",
+    "samples": 768,
+    "features": 8,
+    "positives": 268,
+    "positive_rate": 0.3489583333333333,
+    "missing_values_preserved": 652,
+    "source_sha256": "6bfe5d0f379d17a0e0819b996407e3c09bf80febd4287f2ed212190dfff154af"
+  },
+  {
+    "dataset": "heart",
+    "samples": 303,
+    "features": 13,
+    "positives": 139,
+    "positive_rate": 0.45874587458745875,
+    "missing_values_preserved": 6,
+    "source_sha256": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8"
+  },
+  {
+    "dataset": "heart_failure",
+    "samples": 299,
+    "features": 12,
+    "positives": 96,
+    "positive_rate": 0.3210702341137124,
+    "missing_values_preserved": 0,
+    "source_sha256": "9c73cea7468ff5d517801ec050fe9993da5912fce4b56f296f8df3b38dd75912"
+  },
+  {
+    "dataset": "wesad",
+    "samples": 438,
+    "features": 7,
+    "positives": 155,
+    "positive_rate": 0.3538812785388128,
+    "subjects": 15,
+    "privacy_unit": "subject"
+  }
+]

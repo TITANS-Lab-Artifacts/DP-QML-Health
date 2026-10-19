@@ -1,0 +1,222 @@
+[
+  {
+    "dataset": "heart",
+    "seed": 0,
+    "qnn_lr": 0.08,
+    "mlp_lr": 0.08,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/heart_seed0_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "heart",
+    "seed": 1,
+    "qnn_lr": 0.05,
+    "mlp_lr": 0.08,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/heart_seed1_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "heart",
+    "seed": 2,
+    "qnn_lr": 0.05,
+    "mlp_lr": 0.05,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/heart_seed2_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "heart",
+    "seed": 3,
+    "qnn_lr": 0.08,
+    "mlp_lr": 0.03,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/heart_seed3_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "heart",
+    "seed": 4,
+    "qnn_lr": 0.08,
+    "mlp_lr": 0.08,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/heart_seed4_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "heart_failure",
+    "seed": 0,
+    "qnn_lr": 0.05,
+    "mlp_lr": 0.08,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/heart_failure_seed0_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "heart_failure",
+    "seed": 1,
+    "qnn_lr": 0.08,
+    "mlp_lr": 0.08,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/heart_failure_seed1_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "heart_failure",
+    "seed": 2,
+    "qnn_lr": 0.08,
+    "mlp_lr": 0.08,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/heart_failure_seed2_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "heart_failure",
+    "seed": 3,
+    "qnn_lr": 0.08,
+    "mlp_lr": 0.03,
+    "logistic_lr": 0.05,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/heart_failure_seed3_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "heart_failure",
+    "seed": 4,
+    "qnn_lr": 0.08,
+    "mlp_lr": 0.08,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/heart_failure_seed4_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "pima",
+    "seed": 0,
+    "qnn_lr": 0.08,
+    "mlp_lr": 0.05,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/pima_seed0_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "pima",
+    "seed": 1,
+    "qnn_lr": 0.08,
+    "mlp_lr": 0.08,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/pima_seed1_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "pima",
+    "seed": 2,
+    "qnn_lr": 0.02,
+    "mlp_lr": 0.03,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/pima_seed2_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "pima",
+    "seed": 3,
+    "qnn_lr": 0.05,
+    "mlp_lr": 0.08,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/pima_seed3_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "pima",
+    "seed": 4,
+    "qnn_lr": 0.08,
+    "mlp_lr": 0.01,
+    "logistic_lr": 0.03,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/pima_seed4_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "wesad",
+    "seed": 0,
+    "qnn_lr": 0.05,
+    "mlp_lr": 0.08,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/wesad_seed0_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "wesad",
+    "seed": 1,
+    "qnn_lr": 0.05,
+    "mlp_lr": 0.08,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/wesad_seed1_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "wesad",
+    "seed": 2,
+    "qnn_lr": 0.02,
+    "mlp_lr": 0.08,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/wesad_seed2_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "wesad",
+    "seed": 3,
+    "qnn_lr": 0.08,
+    "mlp_lr": 0.08,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/wesad_seed3_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  },
+  {
+    "dataset": "wesad",
+    "seed": 4,
+    "qnn_lr": 0.02,
+    "mlp_lr": 0.08,
+    "logistic_lr": 0.08,
+    "preprocessor_artifact": "Results/Simulation/Artifacts/wesad_seed4_public_preprocessor.joblib",
+    "quantum_device": "lightning.qubit",
+    "diff_method": "adjoint",
+    "code_version": "4.0"
+  }
+]

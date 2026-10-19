@@ -1,0 +1,97 @@
+{
+  "code_version": "4.0",
+  "randomness_protocol_version": "3.1",
+  "datasets": [
+    "pima",
+    "heart",
+    "heart_failure",
+    "wesad"
+  ],
+  "eps_grid": [
+    0.5,
+    1,
+    2,
+    4,
+    8
+  ],
+  "delta": 1e-05,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "split": {
+    "public_size": 0.2,
+    "test_size": 0.2,
+    "public_seed": 2026
+  },
+  "qnn": {
+    "n_features": 4,
+    "n_layers": 2,
+    "encoding": "ry",
+    "device": "lightning.qubit",
+    "diff_method": "adjoint"
+  },
+  "parallel": {
+    "start_method": "spawn",
+    "maximum_workers": 8,
+    "reserved_cpu_cores": 2,
+    "threads_per_worker": 1
+  },
+  "training": {
+    "nonprivate_epochs": 25,
+    "private_epochs": 25,
+    "expected_batch_units": 32,
+    "lr_candidates": {
+      "qnn": [
+        0.02,
+        0.05,
+        0.08
+      ],
+      "mlp": [
+        0.01,
+        0.03,
+        0.05,
+        0.08
+      ],
+      "logistic": [
+        0.01,
+        0.03,
+        0.05,
+        0.08
+      ]
+    }
+  },
+  "private_models": [
+    "qnn_C0.5_empirical",
+    "qnn_C1.0_empirical",
+    "qnn_Cbound_certified",
+    "mlp_C0.5",
+    "mlp_C1.0",
+    "logistic_C1.0"
+  ],
+  "primary_comparison": {
+    "qnn": "qnn_C1.0_empirical",
+    "classical": "mlp_C1.0",
+    "selection": "predeclared_before_private_test_evaluation"
+  },
+  "ablation": {
+    "n_features": [
+      4,
+      6,
+      8
+    ],
+    "n_layers": [
+      1,
+      2,
+      3
+    ],
+    "encodings": [
+      "ry",
+      "rx"
+    ],
+    "eps": 1.0
+  }
+}
